@@ -17,7 +17,7 @@ export const AboutData = [
       "Adobe Illustrator",
       "Figma",
       "Framer",
-      "Typography / Spacing / ...",
+      "Typography / Spacing ",
     ],
   },
   {
@@ -40,13 +40,13 @@ export const AboutData = [
     img: "/third.svg",
     array: [
       "NodeJS / Express.js",
-      "MongoDB / MySQL / MSSQL",
+      "MongoDB / MySQL / PostgreSQL",
       "Next.js (API)",
-      "PHP",
-      "WordPress Theme Dev",
-      "WordPress Plugin Dev.",
-      "ASP (Once upon a time)",
-    ],
+      "GraphQL",
+      "REST API",
+      "Authentication / JWT",
+      "WebSockets",
+      ],
   },
   {
     count: 4,
@@ -55,7 +55,7 @@ export const AboutData = [
     array: [
       "Docker / CI CD",
       "Apache / Nginx",
-      "CentOS / Ubuntu",
+      "PopOS / Ubuntu",
       "Windows Server / IIS",
       "Mail Servers / DNS Servers",
       "Firewalls / Security",
@@ -70,7 +70,7 @@ export const AboutData = [
       "Contentful",
       "GraphCMS",
       "Strapi",
-      "WordPress (Gutenberg)",
+    
       "Directus",
       "Sanity",
       "SiteBaan (My Own)",
