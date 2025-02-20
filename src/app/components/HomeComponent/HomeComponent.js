@@ -31,14 +31,16 @@ const HomeComponent = () => {
   return (
     <div className="min-h-screen bg-gradient-to-r from-[#9cdff19d] via-[#caf1fc9d] to-[#e0f2f79d] flex flex-col items-center justify-center text-center p-8">
       {/* Profile Section */}
-      <div className="w-full flex flex-col p- items-center mt-2  gap-8">
-        <Image
-          src="/profile.jpg" // Add your profile image path
-          alt=""
-          width={180}
-          height={180}
-          className="rounded-full shadow-lg border-4 border-gray-600"
-        />
+      <div className="w-full flex flex-col p- items-center mt-24  gap-8">
+      <Image
+  src="/Yogesh1.png" // Ensure the image is inside the public folder
+  alt="Yogesh Kumar Saini"
+  width={280}
+  height={280}
+  className="rounded-full shadow-lg border-4 border-gray-600 object-cover"
+/>
+
+
         <p className="text-[#47AEDE] text-xl md:text-2xl font-medium">
           Hi There!
         </p>
