@@ -1,9 +1,10 @@
 // this comtains the data we are gonna for AboutMe component and slider component 
 export const AboutDesc = [
-  "This attitude propelled me on an endless journey to learn a variety of skills, including Teaching skill, UI/UX, design, front-end and back-end development, devOps, SEO and optimisations, server management, product design, software design, database design, and many more...",
-  "This attitude propelled me on an endless journey to learn a variety of skills, including Teaching skill, UI/UX, design, front-end and back-end development, devOps, SEO and optimisations, server management, product design, software design, database design, and many more...",
-  "When I encounter a new problem, I usually conduct extensive research on it in order to comprehend it and discover cutting-edge and innovative approaches for dealing with similar problems in the future. As a result, it's not unexpected that I've listed a lot of abilities here:"
+  "A highly motivated and self-driven developer with expertise in full-stack development, data science, and cloud computing. Specialized in the MERN stack with React, Next.js, Tailwind CSS, TypeScript, MongoDB, PostgreSQL, and Express.js, along with experience in machine learning, deep learning, data analysis, and blockchain technology.",
+  "An endless curiosity for learning has led to the exploration of diverse skills, including UI/UX design, DevOps, SEO and optimizations, server management, product design, software architecture, database design, and cloud computing. Projects have ranged from e-commerce and social media platforms to AI-powered applications and real-time auction systems.",
+  "A problem-solving mindset drives a research-oriented approach to challenges, ensuring deep comprehension and the discovery of cutting-edge solutions. This has helped refine skills in algorithm optimization, system design, and deployment strategies. The pursuit of growth and innovation is a continuous journey, always embracing new challenges and opportunities."
 ];
+
 
 export const AboutData = [
   {

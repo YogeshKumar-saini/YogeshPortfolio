@@ -31,7 +31,7 @@ const HomeComponent = () => {
   return (
     <div className="min-h-screen bg-gradient-to-r from-[#9cdff19d] via-[#caf1fc9d] to-[#e0f2f79d] flex flex-col items-center justify-center text-center p-8">
       {/* Profile Section */}
-      <div className="w-full flex flex-col p- items-center mt-24  gap-8">
+      <div className="w-full flex flex-col p- items-center mt-2  gap-8">
         <Image
           src="/profile.jpg" // Add your profile image path
           alt=""
@@ -57,8 +57,8 @@ const HomeComponent = () => {
             Projects
           </a>
           <a
-            href="/Yogesh_Resume.pdf"
-            download="Yogesh_Kumar_Saini_Resume.pdf"
+            href="Yogesh.pdf"
+                    download=" Yogesh.pdf"
             className="bg-[#223740] text-white px-6 py-3 rounded-lg hover:bg-[#48AFDE] transition-all duration-300"
           >
             My Resume
