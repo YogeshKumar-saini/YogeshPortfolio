@@ -53,12 +53,10 @@ export default function Home() {
             <p
               className={`max-w-2xl md:pl-[80px] px-5 font-[300] text-[16px] text-[#47626D] leading-8 mt-5 ${hind.className}`}
             >
-              Here are a few of my most recent work. As a web designer and
-              full-stack web developer, I constantly prioritise 100% client
-              satisfaction. I always enjoy working on my projects, so each one
-              is a new adventure for me. While working on each new project, I
-              attempt to learn new things. As a result, my paintings are always
-              current and one-of-a-kind.
+            Here are some of my most recent projects. As a dedicated machine learning engineer and full-stack developer, I am passionate about building intelligent solutions that drive real-world impact.
+             I specialize in developing predictive models, optimizing algorithms, and integrating AI-driven functionalities into applications.
+              Each project is a learning experience, allowing me to explore cutting-edge techniques in deep learning, data analytics, and automation.
+               My goal is to create innovative and efficient solutions that enhance user experiences and streamline decision-making.
             </p>
           </div>
         </div>
@@ -73,7 +71,7 @@ export default function Home() {
       {isScrolled ? (
         <div
           onClick={() => window.scrollTo(0, 0)}
-          className="bg-red-500 p-4 w-fit rounded-xl fixed bottom-8 right-8 cursor-pointer z-50 animate-bounce"
+          className="bg-sky-400 p-4 w-fit rounded-xl fixed bottom-8 right-8 cursor-pointer z-50 animate-bounce"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
