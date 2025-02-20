@@ -109,7 +109,7 @@ export const DataArray = [
       "/projectImage/project1/friendconnect3.png"
     ],
     "github": "https://github.com/2022BCD0052/Yogesh-Portfolio-1",  
-    "liveDemo": "https://yogesh-portfolio-1.vercel.app/"
+    "liveDemo": "https://friendconnect.vercel.app/"
   },
   {
     "title": "FriendConnect Project",
@@ -124,7 +124,7 @@ export const DataArray = [
       "/projectImage/project1/friendconnect3.png"
     ],
     "github": "https://github.com/2022BCD0052/Yogesh-Portfolio-1",  
-    "liveDemo": "https://yogesh-portfolio-1.vercel.app/"
+    "liveDemo": "https://friendconnect.vercel.app/"
   },
   {
     "title": "FriendConnect Project",
@@ -139,7 +139,7 @@ export const DataArray = [
       "/projectImage/project1/friendconnect3.png"
     ],
     "github": "https://github.com/2022BCD0052/Yogesh-Portfolio-1",  
-    "liveDemo": "https://yogesh-portfolio-1.vercel.app/"
+    "liveDemo": "https://friendconnect.vercel.app/"
   },
   {
     "title": "FriendConnect Project",
@@ -154,7 +154,7 @@ export const DataArray = [
       "/projectImage/project1/friendconnect3.png"
     ],
     "github": "https://github.com/2022BCD0052/Yogesh-Portfolio-1",  
-    "liveDemo": "https://yogesh-portfolio-1.vercel.app/"
+    "liveDemo": "https://friendconnect.vercel.app/"
   },
   {
     "title": "FriendConnect Project",
@@ -169,7 +169,7 @@ export const DataArray = [
       "/projectImage/project1/friendconnect3.png"
     ],
     "github": "https://github.com/2022BCD0052/Yogesh-Portfolio-1",  
-    "liveDemo": "https://yogesh-portfolio-1.vercel.app/"
+    "liveDemo": "https://friendconnect.vercel.app/"
   },
   
 ];
