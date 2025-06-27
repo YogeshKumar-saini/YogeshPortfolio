@@ -1,9 +1,12 @@
 // this comtains the data we are gonna for AboutMe component and slider component 
 export const AboutDesc = [
-  "A highly motivated and self-driven developer with expertise in full-stack development, data science, and cloud computing. Specialized in the MERN stack with React, Next.js, Tailwind CSS, TypeScript, MongoDB, PostgreSQL, and Express.js, along with experience in machine learning, deep learning, data analysis, and blockchain technology.",
-  "An endless curiosity for learning has led to the exploration of diverse skills, including UI/UX design, DevOps, SEO and optimizations, server management, product design, software architecture, database design, and cloud computing. Projects have ranged from e-commerce and social media platforms to AI-powered applications and real-time auction systems.",
-  "A problem-solving mindset drives a research-oriented approach to challenges, ensuring deep comprehension and the discovery of cutting-edge solutions. This has helped refine skills in algorithm optimization, system design, and deployment strategies. The pursuit of growth and innovation is a continuous journey, always embracing new challenges and opportunities."
+  "A passionate and self-driven developer with a strong foundation in full-stack web development, data analytics, and cloud workflows. Specialized in MERN and Next.js with React, Tailwind CSS, TypeScript, MongoDB, PostgreSQL, and Express.js, along with practical experience in machine learning and deploying AI models into production.",
+  
+  "Driven by curiosity and consistent learning, I have explored UI/UX design, DevOps, MLOps, SEO, server management, and scalable software architecture. My projects include e-commerce platforms, portfolio dashboards, real-time applications, and AI-based tools for productivity and learning enhancement.",
+  
+  "I enjoy solving problems systematically, focusing on clean architecture, efficient algorithms, and deployment strategies. My goal is to build impactful solutions while continuously improving my skills, embracing new technologies, and adapting to evolving challenges in the tech landscape."
 ];
+
 
 
 export const AboutData = [
@@ -18,7 +21,7 @@ export const AboutData = [
       "Adobe Illustrator",
       "Figma",
       "Framer",
-      "Typography / Spacing ",
+      "Typography / Spacing",
     ],
   },
   {
@@ -27,12 +30,15 @@ export const AboutData = [
     img: "/second.svg",
     array: [
       "HTML / CSS3",
-      "javaScript (ES6)",
+      "JavaScript (ES6)",
+      "TypeScript",      
       "ReactJS",
       "NextJS",
       "TailwindCSS",
       "Bootstrap",
       "REST API / GraphQL",
+      "Responsive Design",
+      
     ],
   },
   {
@@ -45,131 +51,165 @@ export const AboutData = [
       "Next.js (API)",
       "GraphQL",
       "REST API",
+
       "Authentication / JWT",
       "WebSockets",
-      ],
-  },
-  {
-    count: 4,
-    title: "DevOps and Admin",
-    img: "/fourth.svg",
-    array: [
-      "Docker / CI CD",
-      "Apache / Nginx",
-      "PopOS / Ubuntu",
-      "Windows Server / IIS",
-      "Mail Servers / DNS Servers",
-      "Firewalls / Security",
-      "VMWare ESXi",
+
+
     ],
   },
+{
+  count: 4,
+  title: "DevOps and MLOps",
+  img: "/fourth.svg",
+  array: [
+    "Docker",
+    "Kubernetes",
+    "CI/CD (GitHub Actions, Jenkins)",
+    "AWS / Azure / GCP",
+    "Server Management",
+    "Linux / Bash Scripting",
+    "Monitoring and Logging",
+    "Terraform / Ansible",
+    "Machine Learning Deployment",
+    "Model Versioning (DVC / MLflow)",
+    "API Deployment (FastAPI / Flask)",
+  ],
+},
+
+  // {
+  //   count: 5,
+  //   title: "CMS and Headless CMS",
+  //   img: "/fifth.svg",
+  //   array: [
+  //     "Contentful",
+  //     "GraphCMS",
+  //     "Strapi",
+  //     "Directus",
+  //     "Sanity",
+  //     "SiteBaan (My Own)",
+  //   ],
+  // },
   {
     count: 5,
-    title: "CMS and Headless CMS",
-    img: "/fifth.svg",
+    title: "Tools and Things",
+    img: "/second.svg",
     array: [
-      "Contentful",
-      "GraphCMS",
-      "Strapi",
-    
-      "Directus",
-      "Sanity",
-      "SiteBaan (My Own)",
+      "Git / GitHub / GitLab",
+      "Postman / Insomnia",
+      "Visual Studio Code",
+      "Figma / Adobe XD",
+      "Jira / Trello",
+      "Slack / Discord",
+      "Agile Methodologies",
+      "SEO and Optimizations",
+      "Server Management",
+      "Product Design",
+      "Software Architecture",
     ],
   },
   {
     count: 6,
-    title: "Tools and Things",
-    img: "/sisxth.svg",
+    title: "AI & Data Science",
+    img: "/third.svg",
     array: [
-      "VSCode",
-      "Git / Github",
-      "Bash / Powershell",
-      "NPM / Yarn",
-      "Plesk Control Panel",
-      "Vercel / Stormkit / Netlify",
-      "Postman / Insomnia",
+      "Machine Learning",
+      "Deep Learning",
+      "Natural Language Processing",
+      "Computer Vision",
+      "TensorFlow / PyTorch",
+      "Scikit-learn / Pandas / NumPy",
+      "Data Preprocessing",
+      "Model Evaluation and Tuning",
+      "AI Ethics and Bias Mitigation",
+      "Reinforcement Learning",
+      "Generative AI (ChatGPT, DALL-E)",
     ],
   },
+  {
+    count: 7,
+    title: "Data Analytics",
+    img: "/first.svg",
+    array: [
+      "Data Analysis",
+      "Data Visualization",
+      "SQL / NoSQL Databases",
+      "ETL Processes",
+      "Business Intelligence (BI)",
+      "Statistical Analysis",
+      "Predictive Analytics",
+      "Big Data Technologies (Hadoop, Spark)",
+      "Data Warehousing",
+      "Data Mining",
+      "Data Governance and Quality",
+    ],
+  },
+
 ];
 
 
-// this is for the slider 
+// this is for the slider card 
 export const DataArray = [
   {
-    "title": "FriendConnect Project",
-    "name": "FriendConnect ",
-    "des": "I developed this project in 2023 to guide students worldwide on how to build a portfolio using React.js and Next.js. This portfolio website allows developers to showcase their projects to clients or potential employers. The design was inspired by a friend’s concept and has been carefully crafted to be responsive across all devices.",
-    "des1": "This project was built using React.js, Next.js, NodeMailer, and other modern web technologies!",
+    "title": "Online Code Editor",
+    "name": "Online Code Editor",
+    "des": "A real-time online code editor supporting live HTML, CSS, and JavaScript execution using iframe sandboxing. Includes syntax highlighting, auto-save, and dark mode for an enhanced user experience.",
+    "des1": "Built using Next.js, React, Express.js, TypeScript, and Monaco Editor with features like live preview and reduced editor load time.",
     "developer": "Yogesh Kumar Saini",
-    "techStack": ["React.js", "Next.js", "NodeMailer", "Tailwind CSS", "MongoDB"],
+    "techStack": ["Next.js", "React", "TypeScript", "Node.js", "Express.js", "Monaco Editor"],
     "images": [
-      "/projectImage/project1/friendconnect.png",
-      "/projectImage/project1/friendconnect2.png",
-      "/projectImage/project1/friendconnect3.png"
+      "/projectImage/project4/1.png",
+      "/projectImage/project4/2.png",
+      "/projectImage/project4/3.png",
+      "/projectImage/project4/4.png"
     ],
-    "github": "https://github.com/2022BCD0052/Yogesh-Portfolio-1",  
-    "liveDemo": "https://friendconnect.vercel.app/"
+    "github": "https://github.com/YogeshKumar-saini/one-editor",
+    "liveDemo": "https://one-editor-pearl.vercel.app/"
   },
   {
-    "title": "FriendConnect Project",
-    "name": "FriendConnect ",
-    "des": "I developed this project in 2023 to guide students worldwide on how to build a portfolio using React.js and Next.js. This portfolio website allows developers to showcase their projects to clients or potential employers. The design was inspired by a friend’s concept and has been carefully crafted to be responsive across all devices.",
-    "des1": "This project was built using React.js, Next.js, NodeMailer, and other modern web technologies!",
+    "title": "BookCart - eCommerce App",
+    "name": "BookCart",
+    "des": "An eCommerce platform for buying books with features like cart management, product search, filtering, and secure Stripe-based payments.",
+    "des1": "Developed using Next.js, Express.js, MongoDB, Stripe API, and TypeScript with responsive UI and JWT-based authentication.",
     "developer": "Yogesh Kumar Saini",
-    "techStack": ["React.js", "Next.js", "NodeMailer", "Tailwind CSS", "MongoDB"],
+    "techStack": ["Next.js", "TypeScript", "Tailwind CSS", "Express.js", "MongoDB", "Stripe"],
     "images": [
-      "/projectImage/project1/friendconnect.png",
-      "/projectImage/project1/friendconnect2.png",
-      "/projectImage/project1/friendconnect3.png"
+      "/projectImage/project3/1.png",
+      "/projectImage/project3/2.png",
+      "/projectImage/project3/3.png"
     ],
-    "github": "https://github.com/2022BCD0052/Yogesh-Portfolio-1",  
-    "liveDemo": "https://friendconnect.vercel.app/"
+    "github": "https://github.com/YogeshKumar-saini/BookCart",
+    "liveDemo": "https://book-cart-phi.vercel.app/"
   },
   {
-    "title": "FriendConnect Project",
-    "name": "FriendConnect ",
-    "des": "I developed this project in 2023 to guide students worldwide on how to build a portfolio using React.js and Next.js. This portfolio website allows developers to showcase their projects to clients or potential employers. The design was inspired by a friend’s concept and has been carefully crafted to be responsive across all devices.",
-    "des1": "This project was built using React.js, Next.js, NodeMailer, and other modern web technologies!",
+    "title": "BookingMovieShow",
+    "name": "BookingMovieShow",
+    "des": "A movie ticket booking app featuring show scheduling, interactive seat selection with zoom effect, and an admin dashboard.",
+    "des1": "Built with Next.js, Express.js, Tailwind CSS, and Framer Motion, with JWT-based authentication and MongoDB backend.",
     "developer": "Yogesh Kumar Saini",
-    "techStack": ["React.js", "Next.js", "NodeMailer", "Tailwind CSS", "MongoDB"],
+    "techStack": ["Next.js", "Tailwind CSS", "Express.js", "MongoDB", "JWT", "Framer Motion"],
     "images": [
-      "/projectImage/project1/friendconnect.png",
-      "/projectImage/project1/friendconnect2.png",
-      "/projectImage/project1/friendconnect3.png"
+      "/projectImage/project2/1.png",
+      "/projectImage/project2/2.png",
+      "/projectImage/project2/3.png"
     ],
-    "github": "https://github.com/2022BCD0052/Yogesh-Portfolio-1",  
-    "liveDemo": "https://friendconnect.vercel.app/"
+    "github": "https://github.com/YogeshKumar-saini/BookingMovieShow",
+    "liveDemo": "https://booking-movie-show.vercel.app/"
   },
   {
-    "title": "FriendConnect Project",
-    "name": "FriendConnect ",
-    "des": "I developed this project in 2023 to guide students worldwide on how to build a portfolio using React.js and Next.js. This portfolio website allows developers to showcase their projects to clients or potential employers. The design was inspired by a friend’s concept and has been carefully crafted to be responsive across all devices.",
-    "des1": "This project was built using React.js, Next.js, NodeMailer, and other modern web technologies!",
+    "title": "FriendConnect",
+    "name": "FriendConnect",
+    "des": "FriendConnect is a full-stack video calling and messaging platform built to enhance real-time communication with reduced latency and improved security. Designed for seamless user experience and optimized performance.",
+    "des1": "The project was developed using Node.js, JavaScript, HTML/CSS, MongoDB, and WebRTC. It features end-to-end encrypted video calls, JWT-based authentication, and low-latency media streaming.",
     "developer": "Yogesh Kumar Saini",
-    "techStack": ["React.js", "Next.js", "NodeMailer", "Tailwind CSS", "MongoDB"],
+    "techStack": ["Node.js", "JavaScript", "WebRTC", "MongoDB", "HTML", "CSS", "JWT"],
     "images": [
       "/projectImage/project1/friendconnect.png",
       "/projectImage/project1/friendconnect2.png",
       "/projectImage/project1/friendconnect3.png"
     ],
-    "github": "https://github.com/2022BCD0052/Yogesh-Portfolio-1",  
+    "github": "https://github.com/YogeshKumar-saini/FriendConnect",
     "liveDemo": "https://friendconnect.vercel.app/"
-  },
-  {
-    "title": "FriendConnect Project",
-    "name": "FriendConnect ",
-    "des": "I developed this project in 2023 to guide students worldwide on how to build a portfolio using React.js and Next.js. This portfolio website allows developers to showcase their projects to clients or potential employers. The design was inspired by a friend’s concept and has been carefully crafted to be responsive across all devices.",
-    "des1": "This project was built using React.js, Next.js, NodeMailer, and other modern web technologies!",
-    "developer": "Yogesh Kumar Saini",
-    "techStack": ["React.js", "Next.js", "NodeMailer", "Tailwind CSS", "MongoDB"],
-    "images": [
-      "/projectImage/project1/friendconnect.png",
-      "/projectImage/project1/friendconnect2.png",
-      "/projectImage/project1/friendconnect3.png"
-    ],
-    "github": "https://github.com/2022BCD0052/Yogesh-Portfolio-1",  
-    "liveDemo": "https://friendconnect.vercel.app/"
-  },
-  
-];
+  }
+]
+;

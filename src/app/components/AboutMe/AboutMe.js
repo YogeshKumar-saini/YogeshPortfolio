@@ -61,8 +61,8 @@ export default function AboutMe() {
             About My Self
           </h1>
           <h4 className="relative w-full font-[300] md:w-3/4 lg:w-2/3 xl:w-1/2 font-recoleta text-[#223740] text-2xl mb-10 px-5 md:px-24">
-            Knack of Building application with frontend and backend operation
-          </h4>
+
+Knack for crafting seamless full-stack and AI-powered applications.          </h4>
           <section className="relative flex flex-col lg:flex-row px-5 md:px-24">
       
           {AboutDesc.map((desc, index) => (
