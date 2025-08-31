@@ -1,4 +1,5 @@
 import React from 'react';
+import { motion } from 'framer-motion';
 
 interface TextareaProps extends React.TextareaHTMLAttributes<HTMLTextAreaElement> {
   label?: string;
@@ -7,19 +8,29 @@ interface TextareaProps extends React.TextareaHTMLAttributes<HTMLTextAreaElement
 
 export default function Textarea({ label, error, className = '', ...props }: TextareaProps) {
   return (
-    <div className="w-full">
+    <motion.div 
+      initial={{ opacity: 0, y: 20 }}
+      animate={{ opacity: 1, y: 0 }}
+      className="w-full"
+    >
       {label && (
-        <label className="block text-sm font-medium text-dark-700 mb-2">
+        <label className="block text-sm font-bold text-gray-700 mb-3">
           {label}
         </label>
       )}
       <textarea
-        className={`form-textarea ${error ? 'border-red-500 focus:ring-red-500' : ''} ${className}`}
+        className={`form-textarea-premium focus-ring-premium ${error ? 'border-red-300 focus:ring-red-500/20' : ''} ${className}`}
         {...props}
       />
       {error && (
-        <p className="mt-1 text-sm text-red-600">{error}</p>
+        <motion.p
+          initial={{ opacity: 0, y: -10 }}
+          animate={{ opacity: 1, y: 0 }}
+          className="mt-2 text-sm text-red-600 font-medium"
+        >
+          {error}
+        </motion.p>
       )}
-    </div>
+    </motion.div>
   );
 }
